@@ -15,20 +15,28 @@ class Counter extends React.Component {
     };
   }
 
-	/** Handles incrementing, adds 1 to counter everytime it is clicked */
-	handleButtonClick = (e) => {
+  /**
+ * Handles incrementing, adds 1 to counter everytime it is clicked
+ */
+	handleIncrementClick = (e) => {
 	  e.preventDefault();
 	  this.setState({ counter: this.state.counter + 1 });
 	};
 
-	/** Handles decrementing, subtracts 1 to counter everytime it is clicked */
+	/**
+	 * Handles decrementing, subtracts 1 to counter everytime it is clicked
+	 */
 	handleDecrementClick = (e) => {
 	  e.preventDefault();
 	  this.setState({ counter: this.state.counter - 1 });
 	};
 
 	// eslint-disable-next-line max-len
-	/** Renders number to DOM, if less than 0 font color will be lightpink. Greater than 0 font color is bisque */
+	
+	/**
+	 * Renders number to DOM, if less than 0 font color will be lightpink.
+	 * Greater than 0 font color is bisque
+	 */
 	render() {
 	  // eslint-disable-next-line prefer-destructuring
 	  const counter = this.state.counter;
