@@ -40,12 +40,12 @@ describe('Counter component', () => {
       expect(wrapper.state('counter')).toBe(-2);
     });
   });
-  
-  describe('Counter snapshot test', () => {
-    it('renders to DOM correctly', () => {
-      const component = renderer.create(<Counter />);
-      const tree = component.toJSON();
-      expect(tree).toMatchSnapshot();
-    });
+});
+
+describe('Counter snapshot test', () => {
+  it('renders to DOM correctly', () => {
+    const component = renderer.create(<Counter />);
+    const tree = component.toJSON();
+    expect(tree).toMatchSnapshot();
   });
 });
