@@ -52,8 +52,8 @@ class Counter extends React.Component {
 
 	  return (
 			<div className='counter'>
-				<h4 className='count' style={color}>{this.state.counter}</h4>
-				<a href="*" className='increment' onClick={this.handleButtonClick}>
+				<h4 className='count' style={color}>{counter}</h4>
+				<a href="*" className='increment' onClick={this.handleIncrementClick}>
 					Going up
 				</a>
 				<a href="*" className='decrement' onClick={this.handleDecrementClick}>
