@@ -1,0 +1,11 @@
+$backgroundColor: darkred;
+$align: center;
+$space: 10%;
+$size: 2em;
+$accentColor: whitesmoke;
+
+footer{
+  margin-top: $space;
+  color: $accentColor;
+  font-size: $size;
+}

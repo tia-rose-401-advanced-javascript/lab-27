@@ -3,17 +3,13 @@
 ### Author: Tia Rose
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
-* [front-end](http://xyz.com)
+* [submission PR](https://github.com/tia-rose-401-advanced-javascript/lab-27/pull/1)
+* [travis](https://www.travis-ci.com/tia-rose-401-advanced-javascript/lab-27)
+* [Netlify](https://jovial-lewin-3b13fc.netlify.com)
+* [AWS](http://js-lab-27.s3-website-us-west-2.amazonaws.com)
 
 #### Documentation
-* [styleguide](http://xyz.com) (React assignments)
+* [styleguide](http://localhost:6060/)
   
-#### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
 
 ![UML](./assets/Class-26-UML.JPG)
-# lab-27
