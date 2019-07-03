@@ -2,6 +2,9 @@
 import React from 'react';
 import './Header.scss';
 
+/**
+ * Header component
+ */
 class Header extends React.Component {
   render() {
     return (
